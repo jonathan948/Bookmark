@@ -1,0 +1,189 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: Rubik;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+}
+
+h6{
+    margin-left: 36%;
+}
+
+li{
+    margin: 10px;
+}
+
+hr{
+    width: 30%;
+}
+
+li:hover{
+    margin: 10px;
+    color: blue;
+}
+
+.arrow{
+    margin-right: 35%;
+}
+
+.box{
+    padding: 5%;
+}
+
+.btn-one{
+    background:hsl(0, 94%, 66%);
+    width: 100px;
+    border-radius: 10px;
+    border: solid  hsl(0, 94%, 66%);
+    color: white;
+    font-size: 10px;
+
+}
+
+.btn-chrome{
+    background: hsl(231, 69%, 60%);
+    border-radius: 5px;
+    border: solid  hsl(231, 69%, 60%);
+    color: white;
+    font-size: 10px;
+
+}
+
+
+.btn-get{
+    background: white;
+    border-radius: 5px;
+    border: solid  white;
+    color: lightgray;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+    margin-left: 60%;
+    font-size: 13px;
+}
+
+.btn-on{
+    background:  hsl(0, 94%, 66%);
+    border-radius: 5px;
+    border: solid   hsl(0, 94%, 66%);
+    color: white;
+    text-align:center;
+    margin-left: 10px;
+    width: 30%;
+    margin: 0 auto;
+    margin-right: 80%;
+    font-size: 10px;
+
+}
+
+.btn-chrome-two{
+    background: hsl(231, 69%, 60%);
+    border-radius: 5px;
+    border: solid  hsl(231, 69%, 60%);
+    color: white;
+    width: 70%;
+    font-size: 10px;
+
+}
+
+.btn-opera{
+    background: hsl(231, 69%, 60%);
+    border-radius: 5px;
+    border: solid  hsl(231, 69%, 60%);
+    color: white;
+    font-size: 10px;
+    width: 70%;
+}
+
+.btn-fox{
+    background: hsl(231, 69%, 60%);
+    border-radius: 5px;
+    border: solid  hsl(231, 69%, 60%);
+    color: white;
+    font-size: 10px;
+    width: 70%;
+}
+
+.btn-fire{
+    background: hsl(229, 8%, 60%);
+    border-radius: 5px;
+    border: solid  hsl(229, 8%, 60%);
+    color: white;
+    font-size: 10px;
+
+}
+
+.speed{
+    height: 5px;
+    width: 50%;
+    background: hsl(12, 88%, 59%);
+    border-radius: 7px 0px 0px 7px ;
+    margin: 0 auto;
+}
+
+.easy{
+    height: 5px;
+    width: 50%;
+    background: hsl(229, 8%, 60%);
+    border-radius: 0px 7px 7px 0px ;
+    margin: 0 auto;
+}
+
+.navbar-toggler-icon{
+   background-color: black;
+   border-radius: 20%;
+}
+
+@media(max-width: 768px){
+  .john{
+      text-align: center;
+  }
+   
+  .nav{
+      text-align: center;
+  }
+  .para{
+    text-align: center;
+  }
+ 
+  .footer-ul{
+    text-align: center;
+  }
+  .hero{
+      width: 80%;
+  }
+
+  .logo{
+      width: 40%;
+  }
+
+  .row{
+      text-align: center;
+  }
+
+  .f{
+      text-align: center;
+      font-size: 3px;
+  }
+  
+  .tab{
+    width: 80%;
+}
+ .btn-get{
+   text-align: center;
+   margin: 0 auto;
+}
+
+  .btn-on{
+    text-align: center;
+     margin: 0 auto;
+} 
+}
+
